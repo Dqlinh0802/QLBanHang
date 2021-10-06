@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="QLBanHangModelStoreContainer" CdmEntityContainer="QLBanHangEntities2">
+    <EntitySetMapping Name="CHITIETHOADONs">
+      <EntityTypeMapping TypeName="QLBanHangModel.CHITIETHOADON">
+        <MappingFragment StoreEntitySet="CHITIETHOADON">
+          <ScalarProperty Name="MAHOADON" ColumnName="MAHOADON" />
+          <ScalarProperty Name="MA_HH" ColumnName="MA_HH" />
+          <ScalarProperty Name="TICHDIEM" ColumnName="TICHDIEM" />
+          <ScalarProperty Name="UUDAI" ColumnName="UUDAI" />
+          <ScalarProperty Name="DONGIABAN" ColumnName="DONGIABAN" />
+          <ScalarProperty Name="SOLUONGHANGBAN" ColumnName="SOLUONGHANGBAN" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_NHAPHANG">
+      <EntityTypeMapping TypeName="QLBanHangModel.CT_NHAPHANG">
+        <MappingFragment StoreEntitySet="CT_NHAPHANG">
+          <ScalarProperty Name="MA_HH" ColumnName="MA_HH" />
+          <ScalarProperty Name="MANHAPHANG" ColumnName="MANHAPHANG" />
+          <ScalarProperty Name="SOLUONGHANGNHAP" ColumnName="SOLUONGHANGNHAP" />
+          <ScalarProperty Name="DONGIANHAP" ColumnName="DONGIANHAP" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HANGHOAs">
+      <EntityTypeMapping TypeName="QLBanHangModel.HANGHOA">
+        <MappingFragment StoreEntitySet="HANGHOA">
+          <ScalarProperty Name="MA_HH" ColumnName="MA_HH" />
+          <ScalarProperty Name="MANHOM_HH" ColumnName="MANHOM_HH" />
+          <ScalarProperty Name="TEN_HH" ColumnName="TEN_HH" />
+          <ScalarProperty Name="SOLUONG_HH" ColumnName="SOLUONG_HH" />
+          <ScalarProperty Name="GIAVON" ColumnName="GIAVON" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONs">
+      <EntityTypeMapping TypeName="QLBanHangModel.HOADON">
+        <MappingFragment StoreEntitySet="HOADON">
+          <ScalarProperty Name="MAHOADON" ColumnName="MAHOADON" />
+          <ScalarProperty Name="MA_KH" ColumnName="MA_KH" />
+          <ScalarProperty Name="MA_NV" ColumnName="MA_NV" />
+          <ScalarProperty Name="NGAYLAPHOADON" ColumnName="NGAYLAPHOADON" />
+          <ScalarProperty Name="TONGTIEN" ColumnName="TONGTIEN" />
+          <ScalarProperty Name="GHICHUHD" ColumnName="GHICHUHD" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HOADONNHAPs">
+      <EntityTypeMapping TypeName="QLBanHangModel.HOADONNHAP">
+        <MappingFragment StoreEntitySet="HOADONNHAP">
+          <ScalarProperty Name="MANHAPHANG" ColumnName="MANHAPHANG" />
+          <ScalarProperty Name="MA_NCC" ColumnName="MA_NCC" />
+          <ScalarProperty Name="MA_NV" ColumnName="MA_NV" />
+          <ScalarProperty Name="GHICHUNHAPHANG" ColumnName="GHICHUNHAPHANG" />
+          <ScalarProperty Name="NGAYNHAPHANG" ColumnName="NGAYNHAPHANG" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KHACHHANGs">
+      <EntityTypeMapping TypeName="QLBanHangModel.KHACHHANG">
+        <MappingFragment StoreEntitySet="KHACHHANG">
+          <ScalarProperty Name="MA_KH" ColumnName="MA_KH" />
+          <ScalarProperty Name="TEN_KH" ColumnName="TEN_KH" />
+          <ScalarProperty Name="EMAIL_KH" ColumnName="EMAIL_KH" />
+          <ScalarProperty Name="SDT_KH" ColumnName="SDT_KH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHACUNGCAPs">
+      <EntityTypeMapping TypeName="QLBanHangModel.NHACUNGCAP">
+        <MappingFragment StoreEntitySet="NHACUNGCAP">
+          <ScalarProperty Name="MA_NCC" ColumnName="MA_NCC" />
+          <ScalarProperty Name="TEN_NCC" ColumnName="TEN_NCC" />
+          <ScalarProperty Name="SDT_NCC" ColumnName="SDT_NCC" />
+          <ScalarProperty Name="DIACHI_NCC" ColumnName="DIACHI_NCC" />
+          <ScalarProperty Name="EMAIL_NCC" ColumnName="EMAIL_NCC" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHANVIENs">
+      <EntityTypeMapping TypeName="QLBanHangModel.NHANVIEN">
+        <MappingFragment StoreEntitySet="NHANVIEN">
+          <ScalarProperty Name="MA_NV" ColumnName="MA_NV" />
+          <ScalarProperty Name="CCCD_NV" ColumnName="CCCD_NV" />
+          <ScalarProperty Name="EMAIL_NV" ColumnName="EMAIL_NV" />
+          <ScalarProperty Name="SDT_NV" ColumnName="SDT_NV" />
+          <ScalarProperty Name="DIACHI_NV" ColumnName="DIACHI_NV" />
+          <ScalarProperty Name="GHICHU_NV" ColumnName="GHICHU_NV" />
+          <ScalarProperty Name="TEN_NV" ColumnName="TEN_NV" />
+          <ScalarProperty Name="NAMSINH" ColumnName="NAMSINH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NHOMHHs">
+      <EntityTypeMapping TypeName="QLBanHangModel.NHOMHH">
+        <MappingFragment StoreEntitySet="NHOMHH">
+          <ScalarProperty Name="MANHOM_HH" ColumnName="MANHOM_HH" />
+          <ScalarProperty Name="TENNHOM_HH" ColumnName="TENNHOM_HH" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
