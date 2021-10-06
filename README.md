@@ -1,2 +1,2 @@
 # QLBanHang
-Ứng dụng Winform,Sử dụng Entity Framework Database First 
+Ứng dụng Winform, sử dụng Entity Framework Database First 
